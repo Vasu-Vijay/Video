@@ -3,12 +3,12 @@ body {
     text-align:center;
 }
 #pic {
-    margin-top:70px;
+    margin-top:15%;
     transform:rotateZ(0deg);
     border:20px solid white;
     animation:xyz 0s linear 1 ;
     display:none;
-    margin-left:55px;
+    margin-left:45%;
 }
 #play {
     margin-top:200px;
