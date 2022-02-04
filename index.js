@@ -18,10 +18,11 @@ arr[11]="c:/users/node-pc/desktop/12.jpeg";
 arr[12]="c:/users/node-pc/desktop/13.jpeg";
 */
 var a=2;
+
 $(function(){
   sound=document.querySelector('audio');
   console.log('ef')
-    $("#play").on('click',function(){
+  $("#play").on('click',function(){
     $("#button").trigger("click");
    sound.play();
     $("#pic").css("display","block");
