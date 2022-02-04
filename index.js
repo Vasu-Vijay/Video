@@ -18,7 +18,10 @@ arr[11]="c:/users/node-pc/desktop/12.jpeg";
 arr[12]="c:/users/node-pc/desktop/13.jpeg";
 */
 var a=2;
-$("#play").on('click',function(){
+$(function(){
+  sound=document.querySelector('audio');
+  console.log('ef')
+    $("#play").on('click',function(){
     $("#button").trigger("click");
    sound.play();
     $("#pic").css("display","block");
@@ -50,10 +53,6 @@ $("#play").on('click',function(){
         },((n-1)*4000)+3000);
 });
 
-
-$(function(){
-  sound=document.querySelector('audio');
-  console.log('ef')
 });
 function change(){
         $("img").eq(0).css("animation-name","change");
